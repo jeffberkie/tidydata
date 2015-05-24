@@ -24,9 +24,9 @@ For the tidy data set of means, we used the interpretation discussed in this thr
 You can read the data from the tidy data set into R and view it using the following code:
 
 >address <- "https://s3.amazonaws.com/coursera-uploads/user-6fede57f5a0f5c24b5e843a2/973501/asst-3/379ac200024b11e5b6b1e9a57cc12969.txt"
-address <- sub("^https", "http", address)
-tidydata <- read.table(url(address), header = TRUE)
-View(tidydata)
+>address <- sub("^https", "http", address)
+>tidydata <- read.table(url(address), header = TRUE)
+>View(tidydata)
  
 ###Guide to create the tidy data file
 The following steps were taken to clean the data set, all of which are included in the run_analysis.R script:

@@ -133,7 +133,7 @@ Contains the average of the mean frequencies for a Fast Fourier Transform applie
 ####fBodyGyro.meanFreq...Y
 Contains the average of the mean frequencies for a Fast Fourier Transform applied to the body's angular velocity the Y axial.
 
-###fBodyGyro.meanFreq...Z
+####fBodyGyro.meanFreq...Z
 Contains the average of the mean frequencies for a Fast Fourier Transform applied to the body's angular velocity the Z axial.
 
 ####fBodyAccMag.mean..
